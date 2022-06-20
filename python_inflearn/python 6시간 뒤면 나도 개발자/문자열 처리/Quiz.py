@@ -6,9 +6,6 @@ index=site.index(".")
 
 site=site[0:index]
 
-len =len(site)
+password = site[:3]+str(len(site)+str(len(site))+str(site.count("e"))+"!")
 
-count=site.count("e")
-
-total=site[0:3]+str(len)+count
-print(total+"!")
+print("{0}의 비밀번호")
